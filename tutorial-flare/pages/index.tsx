@@ -1,14 +1,13 @@
 import type { NextPage } from 'next'
 import { Heading, Text, Container } from '@chakra-ui/react'
+import Navbar from '../components/Navbar/Navbar'
 
 
 const Home: NextPage = () => {
   return (
-    <Container maxW='100%'>
-      <Heading>Tutorial Flare is Under Development</Heading>
-      <Text>This web app is being built in public on MakerLog</Text>
-    </Container>
-    
+    < >
+      <Navbar />
+    </>
   )
 }
 
