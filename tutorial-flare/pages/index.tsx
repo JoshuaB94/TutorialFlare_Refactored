@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
-import { Heading, Text, Container } from '@chakra-ui/react'
-import Navbar from '../components/Navbar/Navbar'
+import HomeHero from '../components/HeroSection/MainHero'
 
 
 const Home: NextPage = () => {
   return (
     < >
-      <Navbar />
+      <HomeHero />
     </>
   )
 }
