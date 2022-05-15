@@ -3,6 +3,7 @@ import MainHero from '../components/Sections/MainHero'
 import CreatorGrid from '../components/Grids/CreatorGrid'
 import HowItWorks from '../components/Sections/HowItWorks'
 import { Heading, Center, Text, Flex } from '@chakra-ui/react'
+import MainFooter from '../components/Footer/MainFooter'
 
 
 
@@ -23,7 +24,9 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-        <HowItWorks />
+      <HowItWorks />
+      
+      <MainFooter />
     </>
   )
 }
