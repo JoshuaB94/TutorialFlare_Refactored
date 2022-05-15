@@ -38,6 +38,42 @@ const people = [
     imageUrl:
       'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
   },
+  {
+    name: 'Michelle Beans',
+    title: 'Video Creator',
+    location: 'Sioux City, IA',
+    email: 'janecooper@example.com',
+    telephone: '+1-202-555-0170',
+    imageUrl:
+      'https://images.unsplash.com/photo-1484608856193-968d2be4080e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Ricardo Levi',
+    title: 'Video Creator',
+    location: 'Lincoln, NE',
+    email: 'janecooper@example.com',
+    telephone: '+1-202-555-0170',
+    imageUrl:
+      'https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Matt Schillings',
+    title: 'Video Creator',
+    location: 'Austin, TX',
+    email: 'janecooper@example.com',
+    telephone: '+1-202-555-0170',
+    imageUrl:
+      'https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Cindy Doe',
+    title: 'Video Creator',
+    location: 'Ontario, CA',
+    email: 'janecooper@example.com',
+    telephone: '+1-202-555-0170',
+    imageUrl:
+      'https://images.unsplash.com/photo-1487240347230-ba26dd87d085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
   // More people...
 ]
 
