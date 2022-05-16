@@ -51,7 +51,7 @@ export default function MainHero() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-orange-600 hover:text-zinc-800">
+                  <a href="/login" className="font-medium text-orange-600 hover:text-zinc-800">
                     Login / Register
                   </a>
                 </div>
