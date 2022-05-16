@@ -2,10 +2,11 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'react-scroll'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'How it Works', href: '#' },
+  { name: 'Home', href: '/' },
+  // { name: 'How it Works', href: '#howitworks' },
   { name: 'Hire a Creator', href: '#' },
 ]
 
@@ -51,6 +52,9 @@ export default function MainHero() {
                       {item.name}
                     </a>
                   ))}
+                  <Link to="howitworks" spy={true} smooth={true} offset={50} duration={1100} className="font-medium text-gray-500 hover:text-zinc-800 cursor-pointer">
+                    How it Works
+                  </Link>
                   <a href="/login" className="font-medium text-orange-600 hover:text-zinc-800">
                     Login / Register
                   </a>

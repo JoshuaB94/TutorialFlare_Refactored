@@ -1,11 +1,11 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
     main: [
-      { name: 'About', href: '#' },
+      { name: 'About', href: '/about' },
       { name: 'Pricing', href: '#' },
       { name: 'Hire a Creator', href: '#' },
       { name: 'Legal', href: '#' },
-      { name: 'Accessibility', href: '#' },
+      { name: 'Accessibility Statement', href: '#' },
     ],
     social: [
       {
