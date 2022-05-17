@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { supabase } from '../../utils/supabaseClient';
+import { loginWithTwitter } from '../../utils/supabaseClient'
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
@@ -52,42 +53,6 @@ export default function LoginPage() {
                   </div>
                 </div>
   
-                {/* <div>
-                  <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-                    Password
-                  </label>
-                  <div className="mt-1">
-                    <input
-                      id="password"
-                      name="password"
-                      type="password"
-                      autoComplete="current-password"
-                      required
-                      className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-orange-500 focus:border-orange-600 sm:text-sm"
-                    />
-                  </div>
-                </div>
-  
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center">
-                    <input
-                      id="remember-me"
-                      name="remember-me"
-                      type="checkbox"
-                      className="h-4 w-4 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
-                    />
-                    <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
-                      Remember me
-                    </label>
-                  </div>
-  
-                  <div className="text-sm">
-                    <a href="#" className="font-medium text-zinc-500 hover:text-orange-500">
-                      Forgot your password?
-                    </a>
-                  </div>
-                </div> */}
-  
                 <div>
                   <button
                     type="submit"
@@ -130,6 +95,7 @@ export default function LoginPage() {
                     <a
                       href="#"
                       className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-zinc-700 hover:bg-gray-50"
+                      onClick={() => loginWithTwitter()}
                     >
                       <span className="sr-only">Sign in with Twitter</span>
                       <svg className="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">

@@ -6,7 +6,6 @@ import { Link } from 'react-scroll'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  // { name: 'How it Works', href: '#howitworks' },
   { name: 'Hire a Creator', href: '#' },
 ]
 
@@ -134,7 +133,7 @@ export default function MainHero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="/login"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-zinc-900 bg-zinc-100 hover:bg-zinc-200 md:py-4 md:text-lg md:px-10"
                   >
                     Create an Account
