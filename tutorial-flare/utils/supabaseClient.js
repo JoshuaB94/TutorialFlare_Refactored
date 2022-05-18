@@ -11,6 +11,12 @@ export async function loginWithTwitter() {
     })
 }
 
+export async function loginWithGoogle() {
+    const { user, session, error } = await supabase.auth.signIn({
+        provider: 'google',
+    })
+}
+
 export async function logout() {
     const { error } = await supabase.auth.signOut()
 }
