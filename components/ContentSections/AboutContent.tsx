@@ -1,19 +1,5 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
-*/
+import Image from "next/image"
+
 export default function AboutContent() {
     return (
       <div className="pt-20 pb-24 bg-gray-50 overflow-hidden">
@@ -85,7 +71,7 @@ export default function AboutContent() {
               </svg>
               <blockquote className="relative bg-white rounded-lg shadow-lg">
                 <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-                  {/* <img
+                  {/* <Image
                     src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
                     alt="Workcation"
                     className="h-8"
@@ -108,7 +94,7 @@ export default function AboutContent() {
                 </div>
                 <cite className="relative flex items-center sm:items-start bg-zinc-900 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
                   <span className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
-                    <img
+                    <Image
                       className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-zinc-300"
                       src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80"
                       alt=""

@@ -1,4 +1,5 @@
-/* This example requires Tailwind CSS v2.0+ */
+import Image from "next/image"
+
 const navigation = [
     { name: 'Home', href: '/' },
     { name: 'How it Works', href: '/#howitworks' },
@@ -14,7 +15,7 @@ const navigation = [
             <div className="flex items-center">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img
+                <Image
                   className="h-10 w-auto"
                   src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
                   alt=""

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { supabase } from '../../utils/supabaseClient'
 import { loginWithTwitter } from '../../utils/supabaseClient'
 import { loginWithGoogle } from '../../utils/supabaseClient'
+import Image from 'next/image';
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');
@@ -21,7 +22,7 @@ export default function LoginPage() {
       <>
         <div className="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-md">
-            <img
+            <Image
               className="mx-auto h-12 w-auto"
               src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
               alt="Workflow"
